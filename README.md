@@ -1,4 +1,1 @@
-"# rock_paper_scisors" 
-"# rock_paper_scisors" 
-"# rock_paper_scisors" 
-"# rock_paper_scisors" 
+A simple rock, scisors, paper game (still in devlopment)
