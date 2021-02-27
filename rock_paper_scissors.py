@@ -31,7 +31,7 @@ def turn(user):
     elif cpu == 'paper' and user == 'rock':
         result.configure(text="\n\n\n\nYou are defeated!\n\n\n\nOpponent had Paper")
     elif cpu == 'scissors' and user == 'paper':
-        result.configure(text="\n\n\n\nYou are defeated!\n\n\n\nOpponent had Scissor")
+        result.configure(text="\n\n\n\nYou are defeated!\n\n\n\nOpponent had Scissors")
     elif cpu == 'scissors' and user == 'rock':
         result.configure(text="\n\n\n\nYou Win!\n\n\n\nOpponent had Scissors")
     elif cpu == 'rock' and user == 'paper':
@@ -42,14 +42,14 @@ def turn(user):
 
 mainWindow = Tk()
 mainWindow.title("Rock-Paper-Scissors")
-mainWindow.geometry("800x600")
-rockButton = Button(mainWindow, width=20, text="ROCK!", justify=CENTER,
+mainWindow.geometry("750x700")
+rockButton = Button(mainWindow, width=10, text="ROCK!", justify=CENTER,
                     command=rock)
-paperButton = Button(mainWindow, width=20, text="PAPER!", justify=CENTER,
+paperButton = Button(mainWindow, width=10, text="PAPER!", justify=CENTER,
                      command=paper)
-scissorsButton = Button(mainWindow, width=20, text="SCISSORS!", justify=CENTER,
+scissorsButton = Button(mainWindow, width=10, text="SCISSORS!", justify=CENTER,
                         command=scissors)
-result = Label(mainWindow, width=30, justify=CENTER, font=("Helvetica", 20))
+result = Label(mainWindow, width=30, justify=CENTER, font=("", 20))
 rockButton.grid(row=3, column=1)
 paperButton.grid(row=3, column=2)
 scissorsButton.grid(row=3, column=3)
