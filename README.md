@@ -1,1 +1,1 @@
-A simple rock, scisors, paper game (still in devlopment)
+Did this project in like 13 mins, it's pretty much nothing really worth
